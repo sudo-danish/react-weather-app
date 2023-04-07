@@ -25,11 +25,25 @@
 #### Bootstrap [User Interface]
 #### Jquery AJAX [API Requests]
 
+### Run This Application in Docker Container.
+
+-The Dockerfile.dev for this application can be found in the root directory of the project.
+
+To run the React Weather Application in a Docker container, you can use the following steps:
+
+1. Make sure you have Docker installed on your machine.
+2. Clone the repository: `git clone https://github.com/sudo-danish/react-weather-app.git`
+3. Navigate to the root directory of the project: `cd react-weather-app`
+4. Build the Docker image: `docker build -f -t react-weather-app .`
+5. Start the Docker container: `docker run -p 3000:3000 react-weather-app`
+6. Open your web browser and go to `http://localhost:3000` to view the application.
+
 
 ### Live Link 
 
 https://zedd-weather.vercel.app
 
-### Please Support By Starring This Project. Follow Me For More Cool Open Source Projects.
+
+### Follow the original author of This Application For More Cool Open Source Projects.
 
 https://github.com/adedoyin-emmanuel/
